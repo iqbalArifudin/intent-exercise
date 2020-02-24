@@ -168,8 +168,7 @@
                     android:layout_height="match_parent"
                     android:gravity="top"
                     android:hint="About You"
-                    android:inputType="textMultiLine"
-                    />
+                    android:inputType="textMultiLine" />
 
             </com.google.android.material.textfield.TextInputLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -184,6 +183,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/btn_red_large"
         android:text="@android:string/ok"
+        android:onClick="handleProfile"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
